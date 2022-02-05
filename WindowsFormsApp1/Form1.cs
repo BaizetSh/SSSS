@@ -29,7 +29,12 @@ namespace WindowsFormsApp1
 
         private void button2_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Выход was clicked");
+            MessageBox.Show("ВЫ точно хотите выйти?");
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
